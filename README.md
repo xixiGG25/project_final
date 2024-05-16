@@ -41,7 +41,11 @@ cat https://ftp.cdc.gov/pub/HEALTH_STATISTICS/NCHS/datalinkage/linked_mortality/
     //use your own username/project repo instead of the class repo below
     global repo "https://github.com/jhustata/intermediate/raw/main/"
     do ${repo}followup.do
-
+    save followup, replace 
+    import sasxport5 "https://wwwn.cdc.gov/Nchs/Nhanes/1999-2000/DEMO.XPT", clear
+    merge 1:1 seqn using followup
+    lookfor follow
+    ```
 ## Plots and .do file
 
 Nonparametric (Kaplan-Meier) method,
@@ -53,8 +57,3 @@ Parametric (Weibull regression) method
 Compare the adjusted figure with unadjusted one
 
 The do.file
-    save followup, replace 
-    import sasxport5 "https://wwwn.cdc.gov/Nchs/Nhanes/1999-2000/DEMO.XPT", clear
-    merge 1:1 seqn using followup
-    lookfor follow
-    ```
