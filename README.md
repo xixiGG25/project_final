@@ -55,4 +55,6 @@ Semiparametric
 ![Semi](semipara_adj.png)
 
 The do.file
+[do file](hw7.do)
+
 
