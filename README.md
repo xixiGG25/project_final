@@ -55,6 +55,6 @@ Semiparametric
 ![Semi](semipara_adj.png)
 
 The do.file
-[do file](hw7.do)
+<a href="hw7.do" download="hw7.do">Download Stata .do File</a>
 
 
