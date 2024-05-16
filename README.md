@@ -46,9 +46,10 @@ cat https://ftp.cdc.gov/pub/HEALTH_STATISTICS/NCHS/datalinkage/linked_mortality/
     merge 1:1 seqn using followup
     lookfor follow
     ```
-## Plots and .do file
+### Plots and .do file
 
-Nonparametric (Kaplan-Meier) method,
+Nonparametric 
+![K-M][nonpara.png]
 
 Semiparametric (Cox Regression) method
 
