@@ -49,9 +49,10 @@ cat https://ftp.cdc.gov/pub/HEALTH_STATISTICS/NCHS/datalinkage/linked_mortality/
 ### Plots and .do file
 
 Nonparametric 
-![K-M][nonpara.png]
+![K-M](nonpara.png)
 
 Semiparametric
-![Semi] [semipara_adj.png]
+![Semi](semipara_adj.png)
 
 The do.file
+
