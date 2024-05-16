@@ -51,10 +51,7 @@ cat https://ftp.cdc.gov/pub/HEALTH_STATISTICS/NCHS/datalinkage/linked_mortality/
 Nonparametric 
 ![K-M][nonpara.png]
 
-Semiparametric (Cox Regression) method
-
-Parametric (Weibull regression) method
-
-Compare the adjusted figure with unadjusted one
+Semiparametric
+![Semi] [semipara_adj.png]
 
 The do.file
